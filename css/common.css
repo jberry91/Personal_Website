@@ -435,6 +435,22 @@ template {
   display: none;
 }
 
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/**
+==============================================================================
+ * Author custom common css.
+ */
+
 .nav_bar {
     list-style-type: none;
     margin: 0;
@@ -443,6 +459,7 @@ template {
     background-color: #f1f1f1;
     border: 1px solid #555;
     overflow: hidden;
+    position: fixed;
     top: 0px;
 }
 
@@ -471,13 +488,6 @@ template {
     color: white;
 }
 
-/* Hidden
-   ========================================================================== */
-
-/**
- * Add the correct display in IE 10-.
- */
-
-[hidden] {
-  display: none;
+.top {
+    padding: 30px 0px;
 }

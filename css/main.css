@@ -97,9 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.section {
+    width: 100%;
+    height: 810px;
+    text-align: center;
+}
 
+#interests {
+    background-image: url(../img/Interest.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding-top: 170px;
+    padding-left: 140px;
+}
 
+#interest_content {
+    background-color: rgba(0, 0, 0, .1);
+    width: 35%;
+    padding: 20px;
+}
 
+#interest_content p {
+    text-align: justify;
+    font-size: 20px;
+}
 
 
 
